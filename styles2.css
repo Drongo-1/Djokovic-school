@@ -1,0 +1,53 @@
+body{
+    background-image: url(./images/img.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+nav{
+    background-color: #E5E5E5;
+    padding: 10px 50px; 
+}
+nav >li{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    float: right;
+    margin-top: 25px;
+    position: relative;
+    text-decoration: none;
+}
+nav > li >a:hover{
+    padding: 5px;
+    background-color: #CFD3CE;
+    border-radius: 5px;
+
+}
+nav >img{
+    height: 70px;
+    width: 70px;
+}
+nav >h3{
+    float: right;
+    margin-right: 160px;
+    margin-bottom: 40px;
+}
+.det{
+    display: flex;
+    margin: 50px;
+}
+#details1 >p{
+    margin-left: 5%;
+    padding-left: 600px;
+    padding-top: 15px;
+}
+#details >p{
+    margin-left: 5%;
+    padding-top: 15px;
+}
+footer{
+    padding: 10px;
+    background-color: #E5E5E5;
+}
+footer >p{
+    text-align: center;
+}
