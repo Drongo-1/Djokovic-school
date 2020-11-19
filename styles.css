@@ -25,7 +25,7 @@ nav > li >a:hover{
 nav >img{
     height: 70px;
     width: 70px;
-    padding-left: 0px;
+    margin-left: -5px;
 }
 nav >h3{
     float: right;
