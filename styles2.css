@@ -28,9 +28,10 @@ nav >img{
 }
 nav >h3{
     float: right;
-    margin-right: 200px;
-    line-height: 5px;
-    padding-left: 10px;
+    margin-right: 240px;
+    line-height: 10px;
+    display: inline;
+    position: fixed;
 }
 .det{
     display: flex;
