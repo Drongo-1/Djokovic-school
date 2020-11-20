@@ -15,6 +15,7 @@ nav >li{
     margin-top: 25px;
     position: relative;
     text-decoration: none;
+    display: inline;
 }
 nav > li >a:hover{
     padding: 5px;
@@ -28,7 +29,10 @@ nav >img{
 }
 nav >h3{
     float: right;
-    margin-right: 160px;
+    margin-right: 240px;
+    line-height: 10px;
+    display: inline;
+    position: fixed;
 }
 #au >p{
     font-size: larger;
