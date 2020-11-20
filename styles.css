@@ -10,11 +10,12 @@ nav{
 }
 nav >li{
     display: inline;
-    padding: 0px 50px;
+    padding: 10px 50px;
     float: right;
     margin-top: 25px;
     position: relative;
     text-decoration: none;
+    line-height: 10px;
 }
 nav > li >a:hover{
     padding: 5px;
@@ -31,7 +32,9 @@ nav >img{
 }
 nav >h3{
     float: right;
-    margin-right: 160px;
+    margin-right: 200px;
+    line-height: 5px;
+    padding-left: 10px;
 }
 .pro{
     display: flex;
