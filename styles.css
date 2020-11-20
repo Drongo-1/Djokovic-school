@@ -2,14 +2,16 @@ body{
     background-image: url(./images/img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 nav{
     background-color: #E5E5E5;
     padding: 10px 50px; 
 }
 nav >li{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: inline;
     padding: 0px 50px;
     float: right;
     margin-top: 25px;
@@ -20,12 +22,14 @@ nav > li >a:hover{
     padding: 5px;
     background-color: #CFD3CE;
     border-radius: 5px;
-
+ 
 }
 nav >img{
     height: 70px;
     width: 70px;
-    margin-left: -5px;
+    margin-left: -5px;border-radius: 40px;
+    margin-top: 0px;
+    padding-top: 2px;
 }
 nav >h3{
     float: right;
