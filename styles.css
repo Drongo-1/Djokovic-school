@@ -9,8 +9,6 @@ nav{
     padding: 10px 50px; 
 }
 nav >li{
-    /* display: flex;
-    flex-direction: column; */
     display: inline;
     padding: 0px 50px;
     float: right;
