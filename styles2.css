@@ -28,8 +28,9 @@ nav >img{
 }
 nav >h3{
     float: right;
-    margin-right: 160px;
-    margin-bottom: 40px;
+    margin-right: 200px;
+    line-height: 5px;
+    padding-left: 10px;
 }
 .det{
     display: flex;
